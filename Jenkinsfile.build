@@ -10,12 +10,6 @@ pipeline {
                         sleep 5
                     }
                 }
-                stage('Package') {
-                    steps {
-                        echo 'Packaging...'
-                        sleep 5
-                    }
-                }
             }
         }
     }
